@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  Spotify Clone
 
 A modern Spotify clone built with **Next.js 16**, **React 19**, **Tailwind CSS**, and **Lucide Icons**. This project demonstrates a full-featured music streaming application with playlist management, liked songs, and a beautiful dark-themed UI.
@@ -81,3 +82,6 @@ Fully responsive design optimized for mobile, tablet, and desktop.
 ---
 
 Built with  using Next.js and React
+=======
+# worldWise
+>>>>>>> be8bc1a83aad6c6772745633386262956d2a7a6e

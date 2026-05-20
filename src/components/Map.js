@@ -27,7 +27,7 @@ function MapClickHandler() {
 function GeolocationButton() {
   const map = useMap();
   const router = useRouter();
-  const [isLoading, setIsLoading] = useState(false);
+  const [setIsLoading] = useState(false);
 
   useEffect(() => {
     const container = L.DomUtil.create("div", "leaflet-bar leaflet-control");
@@ -106,7 +106,7 @@ function GeolocationButton() {
     return () => {
       map.removeControl(geoControl);
     };
-  }, [map, router]);
+  }, [map, router, setIsLoading]);
 
   return null;
 }
