@@ -1,5 +1,10 @@
 import TripDetails from "@/components/TripDetails";
+import { Suspense } from "react";
 
 export default function Page() {
-  return <TripDetails />;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TripDetails />;
+    </Suspense>
+  );
 }
