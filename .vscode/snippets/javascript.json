@@ -1,0 +1,28 @@
+{
+  "React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "export default function ${1:ComponentName}() {",
+      "  return (",
+      "    <div>",
+      "      ${2:Your content here}",
+      "    </div>",
+      "  );",
+      "}"
+    ],
+    "description": "Create a new React functional component"
+  },
+  "React Functional Component with props": {
+    "prefix": "rfcp",
+    "body": [
+      "export default function ${1:ComponentName}({ ${2:props} }) {",
+      "  return (",
+      "    <div>",
+      "      ${3:Your content here}",
+      "    </div>",
+      "  );",
+      "}"
+    ],
+    "description": "Create a new React functional component with props"
+  }
+}

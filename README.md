@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Spotify Clone
 
-## Getting Started
+A modern Spotify clone built with **Next.js 16**, **React 19**, **Tailwind CSS**, and **Lucide Icons**. This project demonstrates a full-featured music streaming application with playlist management, liked songs, and a beautiful dark-themed UI.
 
-First, run the development server:
+##  Features
 
-```bash
+-  **Music Player** - Play, pause, skip tracks with progress control
+-  **Like Tracks** - Save your favorite songs
+-  **Playlists** - Create, manage, and organize playlists
+-  **Search** - Find songs, artists, and playlists
+-  **Controls** - Shuffle, repeat, volume control
+-  **Responsive Design** - Works on desktop, tablet, and mobile
+-  **Dark Theme** - Spotify-inspired dark mode UI
+-  **Fast & Modern** - Built with latest React and Next.js
+
+##  Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm/yarn
+
+### Installation
+
+1. **Install dependencies:**
+\\\ash
+npm install
+\\\
+
+2. **Run the development server:**
+\\\ash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\\\
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Open your browser:**
+Navigate to http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Build for Production
+\\\ash
+npm run build
+npm start
+\\\
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Project Structure
 
-## Learn More
+All core features including Music Player, Sidebar Navigation, Search, Library, and Playlists are fully implemented and ready to use!
 
-To learn more about Next.js, take a look at the following resources:
+##  How to Use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Home**: Browse featured playlists, artists, and popular tracks
+- **Search**: Find songs, artists, and playlists with real-time results
+- **Library**: View liked songs and manage your playlists
+- **Player**: Full playback control with shuffle, repeat, and volume
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##  Components
 
-## Deploy on Vercel
+- **Sidebar**: Navigation and playlist management
+- **Player**: Full-featured music player with all controls
+- **TrackCard**: Grid-based track display
+- **TrackList**: Table-based track listing
+- **PlaylistCard**: Playlist preview cards
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 16** - React framework
+- **React 19** - UI library
+- **Tailwind CSS 4** - Styling
+- **Lucide React** - Icons
+- **JavaScript (ES6+)** - Programming language
+
+##  Responsive Design
+
+Fully responsive design optimized for mobile, tablet, and desktop.
+
+##  Highlights
+
+ Clean, modern UI inspired by Spotify
+ Smooth animations and transitions
+ Fully functional player with all controls
+ Easy to extend with real API data
+ Production-ready code structure
+
+---
+
+Built with  using Next.js and React
